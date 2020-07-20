@@ -1,0 +1,530 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 23,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2166200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I live in Delhi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Delhi",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDefinition.I_live(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1540200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I want to go on a holiday",
+            "match": {
+              "arguments": [
+                {
+                  "val": "holiday",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.I_want(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12377100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "We are 3 adults",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 7
+                }
+              ],
+              "location": "StepDefinition.We_are(int,String,String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "adult1",
+                  "adult2",
+                  "adult3"
+                ]
+              },
+              {
+                "cells": [
+                  "Sarthak",
+                  "Mohit",
+                  "Ramu"
+                ]
+              },
+              {
+                "cells": [
+                  "35",
+                  "25",
+                  "26"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3385600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeScenario()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "I want to book hotel",
+        "description": "",
+        "id": "title-of-your-feature;i-want-to-book-hotel",
+        "after": [
+          {
+            "result": {
+              "duration": 198700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2522300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "We want to book from 10th Feb 2020 to 20th Feb 2020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10th Feb 2020",
+                  "offset": 21
+                },
+                {
+                  "val": "20th Feb 2020",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinition.We_want(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1303500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I go to Travel Website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Website",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinition.I_go(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1156800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I should be able to book both hotel in budget of 10000 INR per head",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10000",
+                  "offset": 49
+                }
+              ],
+              "location": "StepDefinition.I_should(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1629600,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I should be able to exercise Cancel option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cancel",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition.I_should_be(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1177300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should not be asked for advance more than 5000 INR per head in case I want to book in advance",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5000",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinition.I_should_not(int)"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BookHotelAndFlights"
+          },
+          {
+            "name": "@BookHotel"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1518900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I live in Delhi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Delhi",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDefinition.I_live(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1031000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I want to go on a holiday",
+            "match": {
+              "arguments": [
+                {
+                  "val": "holiday",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.I_want(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1254400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "We are 3 adults",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 7
+                }
+              ],
+              "location": "StepDefinition.We_are(int,String,String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "adult1",
+                  "adult2",
+                  "adult3"
+                ]
+              },
+              {
+                "cells": [
+                  "Sarthak",
+                  "Mohit",
+                  "Ramu"
+                ]
+              },
+              {
+                "cells": [
+                  "35",
+                  "25",
+                  "26"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 58,
+        "name": "I want to book flight",
+        "description": "",
+        "id": "title-of-your-feature;i-want-to-book-flight;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 993500,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "We want to book flight to Malaysia on 9th Feb 2020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Malaysia",
+                  "offset": 26
+                },
+                {
+                  "val": "9th Feb 2020",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinition.We_want_to(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 767500,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "return flight on 20th Feb 2020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20th Feb 2020",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinition.return_flight(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BookHotelAndFlights"
+          },
+          {
+            "name": "@BookFlight"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 793700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I live in Delhi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Delhi",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDefinition.I_live(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 514500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I want to go on a holiday",
+            "match": {
+              "arguments": [
+                {
+                  "val": "holiday",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.I_want(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1563300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "We are 3 adults",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 7
+                }
+              ],
+              "location": "StepDefinition.We_are(int,String,String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "adult1",
+                  "adult2",
+                  "adult3"
+                ]
+              },
+              {
+                "cells": [
+                  "Sarthak",
+                  "Mohit",
+                  "Ramu"
+                ]
+              },
+              {
+                "cells": [
+                  "35",
+                  "25",
+                  "26"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 59,
+        "name": "I want to book flight",
+        "description": "",
+        "id": "title-of-your-feature;i-want-to-book-flight;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1133900,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "We want to book flight to Penang on 1st Mar 2020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Penang",
+                  "offset": 26
+                },
+                {
+                  "val": "1st Mar 2020",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.We_want_to(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 420600,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "return flight on 10th Mar 2020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10th Mar 2020",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinition.return_flight(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BookHotelAndFlights"
+          },
+          {
+            "name": "@BookFlight"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to book flight tickets and a hotel",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/stepdefinitionpackage/holiday.feature",
+    "tags": [
+      {
+        "name": "@BookHotelAndFlights",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
